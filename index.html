@@ -4,8 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>𝓲𝓴𝓻𝓸𝓶</title>
+  <title>Ikrom</title>
 
+  <link rel="shortcut icon" href="./assets/black_hole.png" type="image/x-icon">
   <!-- LINK STYLING -->
   <link rel="stylesheet" href="./index.css">
 
@@ -31,7 +32,7 @@
 
       <a class="mouse" href="#about">
         <div class="wheel"></div>
-        <img class="arrow" src="./svg/wheel-bottom.png" />
+        <img class="arrow" src="./assets/wheel-bottom.png" />
       </a>
     </div>
     <!-- END -->
@@ -53,22 +54,21 @@
             <!-- LEFT -->
             <div class="profile about-profile">
               <!-- <h1>UI</h1> -->
-              <img src="./photo_2021-02-05_14-52-40.jpg" alt="">
+              <img src="./assets/me.jpg" alt="">
             </div>
 
             <!-- RIGHT -->
             <div class="about-text">
               <p>My name is Ikrom and I am a <span class="bold600">Front-end</span> developer from Uzbekistan. I have
                 experience building <span class="bold600">SPA</span> and <span class="bold600">JAM-stack</span> sites
-                and
-                a special interest in usability and web performance.
+                and a special interest in usability and web performance.
               </p>
 
               <div class="divide"></div>
 
               <p>I have experience working with the following technologies:</p>
               <ul>
-                <li><span class="bold600">Testing:</span> I use Jasmine and Jest for e2e testing.</li>
+                <li><span class="bold600">Testing:</span> I use Mocha Js.</li>
                 <li><span class="bold600">System version control:</span> Git.</li>
                 <li><span class="bold600">Styling:</span> I love using Scss with BEM methodology. I also have experience
                   with material design system. Such as vuetify, React MUI, and TailwindCSS.</li>
@@ -96,37 +96,32 @@
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <a href="https://allgood.uz/" target="_blank">
-                  <img src="./images/allgood.png" alt="allgood">
+                  <img src="./assets/allgood.png" alt="allgood">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="https://allgoodnasiya.uz" target="_blank">
-                  <img src="./images/allgood-nasiya.png" alt="allgood">
+                  <img src="./assets/allgood-nasiya.png" alt="allgood">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://test.allgoodnasiya.uz/" target="_blank">
+                  <img src="./assets/alltest.png" alt="allgood">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="https://chayxanshik.uz" target="_blank">
-                  <img src="./images/chayxanshik.png" alt="chayxanshik">
+                  <img src="./assets/chayxanshik.png" alt="chayxanshik">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="https://amodent.uz" target="_blank">
+                  <img src="./assets/amo.png" alt="CV">
                 </a>
               </div>
               <div class="swiper-slide">
                 <a href="https://cvy.netlify.app" target="_blank">
-                  <img src="./images/cvy.png" alt="CV">
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="https://github.com/ikromui/buisnesscard-builder-vuejs" target="_blank">
-                  <img src="./images/no-image.png" alt="CV">
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="https://github.com/ikromui/piano-app-reactjs" target="_blank">
-                  <img src="./images/no-image.png" alt="React">
-                </a>
-              </div>
-              <div class="swiper-slide">
-                <a href="https://github.com/ikromui/Music-player-webapp" target="_blank">
-                  <img src="./images/no-image.png" alt="React">
+                  <img src="./assets/cvy.png" alt="CV">
                 </a>
               </div>
             </div>
@@ -158,39 +153,17 @@
                   <h3>Location:</h3>
                   <p>Tashkent, Uzbekistan</p>
                 </li>
-                <li>
-                  <h3>Telegram:</h3>
-                  <a href="https://t.me/ikromui">@ikromui</a>
-                </li>
-              </ul>
-              <!-- 2 -->
-              <ul>
-                <li>
-                  <h3>Linkdein:</h3>
-                  <a href="https://linkedin.com/in/uikrom">@uikrom</a>
-                </li>
-                <li>
-                  <h3>Github:</h3>
-                  <a href="https://github.com/ikromui">@ikromui</a>
-                </li>
-                <li>
-                  <h3>Leetcode:</h3>
-                  <a href="https://leetcode.com/ikromui/">@ikromui</a>
-                </li>
-              </ul>
-              <!-- 3 -->
-              <ul>
-                <li>
-                  <h3>Codepen:</h3>
-                  <a href="https://codepen.com/ikromui">@ikromui</a>
-                </li>
-                <li>
-                  <h3>Chess:</h3>
-                  <a href="https://www.chess.com/member/ikromui">@ikromui</a>
+
+                <li class="social-share">
+                  <a href="https://t.me/ikromui"><img src="./assets/tg.png" alt=""></a>
+                  <a href="https://github.com/ikromui"><img src="./assets/git.png" alt=""></a>
+                  <a href="https://leetcode.com/ikromui/"><img src="./assets/leetcode.webp" alt=""></a>
                 </li>
               </ul>
             </div>
-            <img src="./images/algorithms-step.png" alt="algorithms" class="step">
+            <img
+              src="./assets/pc.webp"
+              alt="algorithms" class="step">
           </div>
 
 
@@ -202,7 +175,7 @@
       <footer class="sections" class="">
         <ul>
           <li>Uzbekistan, Tashkent</li>
-          <li>UI | <p class="year"></p>
+          <li>© | <p class="year"></p>
           </li>
         </ul>
       </footer>
