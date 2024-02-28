@@ -43,7 +43,7 @@ body {
   background: var(--back-bg);
 }
 
-::selection{
+::selection {
   background: var(--back-bg);
   color: #000;
 }
@@ -451,7 +451,7 @@ footer ul li p {
 
 
 .link-button {
-  padding: .5rem 1.4rem;
+  padding: .6rem 1.4rem;
   border: 2px solid var(--back-bg);
   border-radius: 5rem;
   background: var(--white);
@@ -459,12 +459,12 @@ footer ul li p {
   font-size: small;
   text-decoration: none;
   box-shadow: var(--sh1020);
+  transition: 0.2s;
 }
 
 .link-button:hover {
   background: var(--back-bg);
   color: var(--white);
-
 }
 
 /* <-- END --> */
